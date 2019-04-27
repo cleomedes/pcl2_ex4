@@ -2,3 +2,4 @@
 # -*- coding: utf8 -*-
 # Olivier Fischer
 
+print('hello world')
