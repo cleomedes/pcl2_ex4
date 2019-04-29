@@ -1,8 +1,11 @@
 # !/usr/bin/env python3
 # -*- coding: utf8 -*-
+<<<<<<< HEAD
 # PCL II 
 # Übung 04
 # Aufgabe 1.1
+=======
+>>>>>>> a56cb5cd8ff14ed4139bc5c7f7cd16e9e3de55d4
 # Olivier Fischer
 
 import bz2
@@ -25,8 +28,13 @@ def mk_meme_corpus(infile: BinaryIO, outfile: str, min_score: int=100, min_len: 
                     bestcomments.write(comment + '\n')
 
 def main():
+<<<<<<< HEAD
     with bz2.open('Korpusdaten/RC_2012-06.bz2', 'rb') as infile:
         mk_meme_corpus(infile, 'commentselection')
+=======
+    with bz2.open('RC_2012-06.bz2', 'rb') as infile:
+        mk_meme_corpus(infile, 'bestcomments')
+>>>>>>> a56cb5cd8ff14ed4139bc5c7f7cd16e9e3de55d4
 
 if __name__ == "__main__":
     main()
