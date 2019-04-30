@@ -1,0 +1,2 @@
+a) Ich habe meine Fähigkeiten in der effizienten Verarbeitung grosser Textmengen verbessert. Ausserdem habe ich dynamisches Programmieren implementiert.
+b) ~4 Stunden
